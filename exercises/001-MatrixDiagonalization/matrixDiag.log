@@ -1,0 +1,151 @@
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:02:20"}
+INFO:root:Generating matrix diag with seed 937146
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[2, 0, 0], [0, 1, 0], [0, 0, 0]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[-5, 4, 3], [5, 1, -2], [4, 5, 3]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[111/47, 69/47, -65/47], [-107/94, -3/94, 105/94], [11/94, 111/94, 63/94]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = {937146: [[[111, 47], [69, 47], [-65, 47]], [[-107, 94], [-3, 94], [105, 94]], [[11, 94], [111, 94], [63, 94]]]} of type string
+ {"timestamp":"2024-02-20 17:02:20"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:04:26"}
+INFO:root:Generating matrix diag with seed 191510
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[-2, 0, 0], [0, 1, 0], [0, 0, -5/2]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[-1, -3, 4], [-4, 3, -2], [-3, -4, 3]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[-302/45, -91/45, 64/15], [187/45, -4/45, -59/15], [-169/30, -77/30, 33/10]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = [{191510: [[[-302, 45], [-91, 45], [64, 15]], [[187, 45], [-4, 45], [-59, 15]], [[-169, 30], [-77, 30], [33, 10]]]}] of type string
+ {"timestamp":"2024-02-20 17:04:26"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:05:20"}
+INFO:root:Generating matrix diag with seed 983956
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[0, 0, 0], [0, 3/2, 0], [0, 0, 4]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[2, 5, 3], [5, -1, 0], [3, 2, 4]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[-2/23, -83/46, 141/46], [-10/23, -1/46, 15/46], [-148/69, -173/69, 129/23]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = SyntaxError: Expected property name or '}' in JSON at position 2
+ {"timestamp":"2024-02-20 17:05:21"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:05:46"}
+INFO:root:Generating matrix diag with seed 336799
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[1, 0, 0], [0, 1/2, 0], [0, 0, 4]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[-2, -5, -1], [2, 3, -4], [-5, 0, -2]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[36/41, 155/246, 37/123], [72/41, 281/82, 11/41], [30/41, 50/41, 49/41]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = SyntaxError: Expected property name or '}' in JSON at position 2
+ {"timestamp":"2024-02-20 17:05:46"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:05:58"}
+INFO:root:Generating matrix diag with seed 169242
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[2, 0, 0], [0, 0, 0], [0, 0, -5]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[2, 4, 3], [-3, -1, 4], [-5, 0, 4]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[-59/55, -236/55, 74/55], [-124/55, -496/55, 314/55], [-28/11, -112/11, 78/11]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = [{'169242': [[[-59, 55], [-236, 55], [74, 55]], [[-124, 55], [-496, 55], [314, 55]], [[-28, 11], [-112, 11], [78, 11]]]}] of type string
+ {"timestamp":"2024-02-20 17:05:58"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:06:20"}
+INFO:root:Generating matrix diag with seed 618409
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[2, 0, 0], [0, -2, 0], [0, 0, 3]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[3, -2, 4], [4, -4, 5], [-5, 4, 4]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[214/21, -124/21, 4/21], [338/21, -209/21, 2/21], [-320/21, 260/21, 58/21]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = SyntaxError: Expected property name or '}' in JSON at position 1
+ {"timestamp":"2024-02-20 17:06:20"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:07:28"}
+INFO:root:Generating matrix diag with seed 221389
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[-3, 0, 0], [0, -1, 0], [0, 0, 0]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[3, 2, -3], [-4, 2, 2], [2, -2, 0]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[-11/2, -33/4, -51/4], [5, 15/2, 27/2], [-2, -3, -6]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = Erreur lors de l'exécution du script Python : Error: Command failed: python3 matrixDiag.py  start
+Traceback (most recent call last):
+  File "/home/zenemis/Desktop/SapientiaProject/SapientiaBack/exercises/001-MatrixDiagonalization/matrixDiag.py", line 151, in <module>
+    main()
+  File "/home/zenemis/Desktop/SapientiaProject/SapientiaBack/exercises/001-MatrixDiagonalization/matrixDiag.py", line 118, in main
+    print({""+seed : matrixAsList})
+TypeError: can only concatenate str (not "int") to str
+
+ {"timestamp":"2024-02-20 17:07:28"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:08:12"}
+INFO:root:Generating matrix diag with seed 974020
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[5, 0, 0], [0, 0, 0], [0, 0, -1/2]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[-3, 1, -4], [-4, 1, 4], [-4, 0, 2]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[11/15, -11/15, 59/15], [8/5, -8/5, 27/5], [22/15, -22/15, 161/30]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = SyntaxError: Expected property name or '}' in JSON at position 1
+ {"timestamp":"2024-02-20 17:08:12"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:08:26"}
+INFO:root:Generating matrix diag with seed 184291
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[1, 0, 0], [0, 5, 0], [0, 0, 3]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[3, -2, 3], [-3, 1, -1], [-5, 4, 4]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[209/31, 228/31, -30/31], [-82/31, -81/31, 18/31], [-216/31, -416/31, 151/31]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = {184291: [[[209, 31], [228, 31], [-30, 31]], [[-82, 31], [-81, 31], [18, 31]], [[-216, 31], [-416, 31], [151, 31]]]} of type string
+ {"timestamp":"2024-02-20 17:08:27"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:08:38"}
+INFO:root:Generating matrix diag with seed 119887
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[1, 0, 0], [0, 3/2, 0], [0, 0, 2]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[5, 4, -4], [1, 4, 3], [-1, -2, -5]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[37/35, 41/35, 51/35], [-1/7, 11/7, -1/7], [6/35, 1/70, 131/70]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = {'119887': [[[37, 35], [41, 35], [51, 35]], [[-1, 7], [11, 7], [-1, 7]], [[6, 35], [1, 70], [131, 70]]]} of type string
+ {"timestamp":"2024-02-20 17:08:39"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:08:51"}
+INFO:root:Generating matrix diag with seed 111867
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[-1, 0, 0], [0, 5, 0], [0, 0, 0]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[2, 1, 3], [-4, -5, -2], [-5, 2, 4]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[-54/35, -37/35, 22/35], [34/5, 27/5, -12/5], [-12/7, -16/7, 1/7]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = SyntaxError: Expected property name or '}' in JSON at position 1
+ {"timestamp":"2024-02-20 17:08:51"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:09:18"}
+INFO:root:Generating matrix diag with seed 710001
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[5, 0, 0], [0, 5/2, 0], [0, 0, 4]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[-1, -1, -5], [-2, -5, 1], [4, -1, -1]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[475/118, -55/236, -85/236], [-3/118, 645/236, -269/236], [-27/118, -95/236, 1119/236]])
+INFO:root:generateMatrix | Returning generation of matrix
+error: ERROR SESSION : start = SyntaxError: Expected property name or '}' in JSON at position 1
+ {"timestamp":"2024-02-20 17:09:18"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:09:27"}
+INFO:root:Generating matrix diag with seed 396694
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[-4, 0, 0], [0, 5/2, 0], [0, 0, 5]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[2, 0, 5], [-4, -2, 3], [0, -4, 5]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[32/7, 30/7, -15/7], [43/21, -125/42, 115/42], [50/21, 25/21, 40/21]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = {'396694': [[[32, 7], [30, 7], [-15, 7]], [[43, 21], [-125, 42], [115, 42]], [[50, 21], [25, 21], [40, 21]]]} of type string
+ {"timestamp":"2024-02-20 17:09:28"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:10:00"}
+INFO:root:Generating matrix diag with seed 399079
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[5/2, 0, 0], [0, 4, 0], [0, 0, 3]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[4, 0, -4], [-1, 1, -5], [0, 4, 0]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[31/12, 1/3, -1/12], [5/48, 35/12, 13/48], [0, 0, 4]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = {"399079": [[[31, 12], [1, 3], [-1, 12]], [[5, 48], [35, 12], [13, 48]], [[0, 1], [0, 1], [4, 1]]]} of type string
+ {"timestamp":"2024-02-20 17:10:01"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:10:10"}
+INFO:root:Generating matrix diag with seed 468074
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[2, 0, 0], [0, 3/2, 0], [0, 0, -1]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[5, -4, 5], [-3, -4, -2], [-2, -2, -2]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[31/9, -15, 235/9], [-8/9, 8, -101/9], [-7/9, 6, -161/18]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = [object Object] of type object
+ {"timestamp":"2024-02-20 17:10:10"}
+info: BEGIN SESSION : start {"timestamp":"2024-02-20 17:12:42"}
+INFO:root:Generating matrix diag with seed 70684
+INFO:root:Beggining generation of matrix
+INFO:root:generateMatrix | Generated D matrix : Matrix([[5, 0, 0], [0, 0, 0], [0, 0, 3]])
+INFO:root:generateMatrix | Generated P matrix : Matrix([[3, 2, -5], [3, 0, 3], [1, -1, 2]])
+INFO:root:generateMatrix | Generated M matrix : Matrix([[5, -10/3, 10], [1, 10/3, 2], [-1/6, 35/18, -1/3]])
+INFO:root:generateMatrix | Returning generation of matrix
+info: END SESSION : start = [object Object] of type object
+ {"timestamp":"2024-02-20 17:12:42"}
