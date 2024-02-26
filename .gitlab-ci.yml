@@ -16,4 +16,4 @@ deploy:
     - sshpass -p $SERVER_PASSWORD ssh debian@vps-cfef5801 'nohup node express.js > server.logs 2>&1 &'
     - echo $! > save_pid.txt
   only:
-    - master
+    - main
