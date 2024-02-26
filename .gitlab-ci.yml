@@ -1,0 +1,19 @@
+stages:
+  - install
+  - deploy
+
+install:
+  stage: install
+  script:
+    - npm install
+
+deploy:
+  stage: deploy
+  script:
+    - kill -9 `cat save_pid.txt`
+    - rm save_pid.txt
+    - sshpass -p $SERVER_PASSWORD scp -4 -r . debian@vps-cfef5801:~
+    - sshpass -p $SERVER_PASSWORD ssh debian@vps-cfef5801 'nohup node express.js > server.logs 2>&1 &'
+    - echo $! > save_pid.txt
+  only:
+    - master
