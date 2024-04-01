@@ -17,6 +17,7 @@ const matrixDiag = require('./exercises/001-MatrixDiagonalization/matrixDiag.js'
 app.post('/exercises/matrix-diagonalization', async function(req, res) {
   let result;
   try {
+    console.log("received request : " + req);
     result = await matrixDiag(req.body);
     res.status(200);
   } catch (error) {

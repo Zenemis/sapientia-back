@@ -75,6 +75,7 @@ async function step2(seed, eigen){
 }
 
 async function matrixDiag(body){
+  console.log("running matrix diag on step " + body.step);
   let step = body.step;
   switch (step){
     case 0:
